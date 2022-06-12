@@ -25,6 +25,7 @@
 		96D98BD028560D1800892DC1 /* ScrollViewReader_TODO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96D98BCF28560D1800892DC1 /* ScrollViewReader_TODO.swift */; };
 		96D98BD228560D4100892DC1 /* ControlGroup_iOS_15.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96D98BD128560D4100892DC1 /* ControlGroup_iOS_15.swift */; };
 		96D98BD428560F9200892DC1 /* ControlViews_Button.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96D98BD328560F9200892DC1 /* ControlViews_Button.swift */; };
+		96D98BD6285629E700892DC1 /* ColorPicker_TODO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96D98BD5285629E700892DC1 /* ColorPicker_TODO.swift */; };
 		96EFA5072855AB4500C77360 /* Starting_With_The_Title.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96EFA5062855AB4500C77360 /* Starting_With_The_Title.swift */; };
 /* End PBXBuildFile section */
 
@@ -48,6 +49,7 @@
 		96D98BCF28560D1800892DC1 /* ScrollViewReader_TODO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewReader_TODO.swift; sourceTree = "<group>"; };
 		96D98BD128560D4100892DC1 /* ControlGroup_iOS_15.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlGroup_iOS_15.swift; sourceTree = "<group>"; };
 		96D98BD328560F9200892DC1 /* ControlViews_Button.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlViews_Button.swift; sourceTree = "<group>"; };
+		96D98BD5285629E700892DC1 /* ColorPicker_TODO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorPicker_TODO.swift; sourceTree = "<group>"; };
 		96EFA5062855AB4500C77360 /* Starting_With_The_Title.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Starting_With_The_Title.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -98,6 +100,7 @@
 				96D98BCF28560D1800892DC1 /* ScrollViewReader_TODO.swift */,
 				96D98BD128560D4100892DC1 /* ControlGroup_iOS_15.swift */,
 				96D98BD328560F9200892DC1 /* ControlViews_Button.swift */,
+				96D98BD5285629E700892DC1 /* ColorPicker_TODO.swift */,
 				96930B102855A800004A2738 /* Assets.xcassets */,
 				96930B122855A800004A2738 /* Preview Content */,
 			);
@@ -191,6 +194,7 @@
 				96D98BC02855CD0D00892DC1 /* Layout_Views.swift in Sources */,
 				96D98BC82855E84100892DC1 /* Spacer.swift in Sources */,
 				96D98BCC28560C6500892DC1 /* LazyHGrid_TODO.swift in Sources */,
+				96D98BD6285629E700892DC1 /* ColorPicker_TODO.swift in Sources */,
 				96D98BCE28560CC300892DC1 /* LazyVGrid_TODO.swift in Sources */,
 				96D98BBC2855BE8B00892DC1 /* Layout_Behavior.swift in Sources */,
 				96D98BD228560D4100892DC1 /* ControlGroup_iOS_15.swift in Sources */,
