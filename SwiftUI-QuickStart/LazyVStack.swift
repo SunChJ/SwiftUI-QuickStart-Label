@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct LazyVStack: View {
+struct LazyVStack_LazyHGrid_Introduction: View {
     var body: some View {
         Text("Purchased Course, TODO.")
     }
@@ -15,6 +15,6 @@ struct LazyVStack: View {
 
 struct LazyVStack_Previews: PreviewProvider {
     static var previews: some View {
-        LazyVStack()
+        LazyVStack_LazyHGrid_Introduction()
     }
 }
