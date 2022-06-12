@@ -11,6 +11,7 @@
 		96930B0F2855A7FE004A2738 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96930B0E2855A7FE004A2738 /* ContentView.swift */; };
 		96930B112855A800004A2738 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 96930B102855A800004A2738 /* Assets.xcassets */; };
 		96930B142855A800004A2738 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 96930B132855A800004A2738 /* Preview Assets.xcassets */; };
+		96EFA5072855AB4500C77360 /* Starting_With_The_Title.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96EFA5062855AB4500C77360 /* Starting_With_The_Title.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		96930B0E2855A7FE004A2738 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		96930B102855A800004A2738 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		96930B132855A800004A2738 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		96EFA5062855AB4500C77360 /* Starting_With_The_Title.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Starting_With_The_Title.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				96930B0C2855A7FE004A2738 /* SwiftUI_QuickStartApp.swift */,
 				96930B0E2855A7FE004A2738 /* ContentView.swift */,
+				96EFA5062855AB4500C77360 /* Starting_With_The_Title.swift */,
 				96930B102855A800004A2738 /* Assets.xcassets */,
 				96930B122855A800004A2738 /* Preview Content */,
 			);
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				96EFA5072855AB4500C77360 /* Starting_With_The_Title.swift in Sources */,
 				96930B0F2855A7FE004A2738 /* ContentView.swift in Sources */,
 				96930B0D2855A7FE004A2738 /* SwiftUI_QuickStartApp.swift in Sources */,
 			);
