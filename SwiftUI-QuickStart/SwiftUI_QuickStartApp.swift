@@ -11,7 +11,7 @@ import SwiftUI
 struct SwiftUI_QuickStartApp: App {
     var body: some Scene {
         WindowGroup {
-            Layers()
+            ZStack_Introduction()
         }
     }
 }
