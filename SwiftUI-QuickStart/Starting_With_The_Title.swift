@@ -118,7 +118,7 @@ struct HeaderView: View {
     @State var back: Color
     @State var textColor: Color
     
-    init(_ title: String, subtitle: String, desc: String, back: Color, textColor: Color) {
+    init(_ title: String, subtitle: String, desc: String, back: Color, textColor: Color = .black) {
         self.title = title
         self.subtitle = subtitle
         self.desc = desc
