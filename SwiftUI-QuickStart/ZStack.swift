@@ -121,7 +121,7 @@ struct ZStack_layering: View {
                        textColor: .white)
             
             ZStack {
-                Image("yosemite_large")
+                Image("yosemite")
                     .resizable() // allows image to change size
                     .scaledToFit() // Keeps image the same aspect ratio when resizing
                 
@@ -151,7 +151,7 @@ struct ZStack_aligning: View {
                        textColor: .white)
             
             ZStack(alignment: .topLeading) {
-                Image("yosemite_large")
+                Image("yosemite")
                     .resizable()
                     .aspectRatio(contentMode: .fit)
                 
@@ -167,7 +167,7 @@ struct ZStack_aligning: View {
             }
             
             ZStack(alignment: .bottomTrailing) {
-                Image("yosemite_large")
+                Image("yosemite")
                     .resizable()
                     .aspectRatio(contentMode: .fit)
                 

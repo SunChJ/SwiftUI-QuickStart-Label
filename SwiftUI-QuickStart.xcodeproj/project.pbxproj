@@ -18,6 +18,7 @@
 		96D98BC22855E11500892DC1 /* LazyVStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96D98BC12855E11500892DC1 /* LazyVStack.swift */; };
 		96D98BC42855E14300892DC1 /* LayzHStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96D98BC32855E14300892DC1 /* LayzHStack.swift */; };
 		96D98BC62855E18A00892DC1 /* ZStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96D98BC52855E18A00892DC1 /* ZStack.swift */; };
+		96D98BC82855E84100892DC1 /* Spacer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96D98BC72855E84100892DC1 /* Spacer.swift */; };
 		96EFA5072855AB4500C77360 /* Starting_With_The_Title.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96EFA5062855AB4500C77360 /* Starting_With_The_Title.swift */; };
 /* End PBXBuildFile section */
 
@@ -34,6 +35,7 @@
 		96D98BC12855E11500892DC1 /* LazyVStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LazyVStack.swift; sourceTree = "<group>"; };
 		96D98BC32855E14300892DC1 /* LayzHStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LayzHStack.swift; sourceTree = "<group>"; };
 		96D98BC52855E18A00892DC1 /* ZStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZStack.swift; sourceTree = "<group>"; };
+		96D98BC72855E84100892DC1 /* Spacer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Spacer.swift; sourceTree = "<group>"; };
 		96EFA5062855AB4500C77360 /* Starting_With_The_Title.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Starting_With_The_Title.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -77,6 +79,7 @@
 				96D98BC12855E11500892DC1 /* LazyVStack.swift */,
 				96D98BC32855E14300892DC1 /* LayzHStack.swift */,
 				96D98BC52855E18A00892DC1 /* ZStack.swift */,
+				96D98BC72855E84100892DC1 /* Spacer.swift */,
 				96930B102855A800004A2738 /* Assets.xcassets */,
 				96930B122855A800004A2738 /* Preview Content */,
 			);
@@ -166,6 +169,7 @@
 				96D98BC42855E14300892DC1 /* LayzHStack.swift in Sources */,
 				96D98BC62855E18A00892DC1 /* ZStack.swift in Sources */,
 				96D98BC02855CD0D00892DC1 /* Layout_Views.swift in Sources */,
+				96D98BC82855E84100892DC1 /* Spacer.swift in Sources */,
 				96D98BBC2855BE8B00892DC1 /* Layout_Behavior.swift in Sources */,
 				96930B0F2855A7FE004A2738 /* ContentView.swift in Sources */,
 				96D98BBA2855B12500892DC1 /* Swift_Basics.swift in Sources */,
