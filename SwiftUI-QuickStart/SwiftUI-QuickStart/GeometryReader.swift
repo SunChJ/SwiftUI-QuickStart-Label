@@ -77,7 +77,7 @@ struct GeometryReader_Getting_Size: View {
                 .padding()
                 .foregroundColor(.white)
             }
-            .background(Color.pink)
+            .background(Color.pink) // FIXME: behavior change in SwiftUI 4
         }
         .font(.title)
     }
