@@ -258,6 +258,33 @@ struct Form_Section_With_Controls: View {
     }
 }
 
+struct Form_Section_With_The_Disclosure_Group: View {
+    @State private var settingExpaned = true
+    @State private var trebleOn = true
+    @State private var bassOn = false
+    @State private var levels = 0.5
+    
+    var body: some View {
+        VStack(spacing: 20) {
+            HeaderView("From", subtitle: "With Dsiclosure Group", desc: "You can add disclosure groups to a form to allow users to expand into more setting or views.", back: .purple, textColor: .white)
+            
+            Form {
+                DisclosureGroup("Audio Settings", isExpanded: $settingExpaned) {
+                    VStack {
+                        Toggle("Treble", isOn: $trebleOn)
+                        Toggle("Bass", isOn: $bassOn)
+                        Slider(value: $levels)
+                    }
+                    .font(.title2)
+                    .padding()
+                }
+            }
+        }
+        .font(.title)
+        .accentColor(.purple)
+    }
+}
+
 struct SectionTextAndImage: View {
     var name: String
     var image: String
@@ -282,6 +309,7 @@ struct Form_Previews: PreviewProvider {
 //        Form_Section_Background_Images()
 //        Form_Section_Background_Images_SwiftUI4()
 //        Form_Section_List_Row_Inset()
-        Form_Section_With_Controls()
+//        Form_Section_With_Controls()
+        Form_Section_With_The_Disclosure_Group()
     }
 }
