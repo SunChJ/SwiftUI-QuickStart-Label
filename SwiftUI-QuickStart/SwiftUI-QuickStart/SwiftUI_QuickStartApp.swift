@@ -11,7 +11,7 @@ import SwiftUI
 struct SwiftUI_QuickStartApp: App {
     var body: some Scene {
         WindowGroup {
-            Form_Section_List_Row_Inset()
+            List_Selection_Single()
         }
     }
 }
