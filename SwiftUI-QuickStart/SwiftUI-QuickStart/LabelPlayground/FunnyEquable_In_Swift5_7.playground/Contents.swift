@@ -47,8 +47,6 @@ class Bird: BaseAnimal {
 let dog = Dog(name: "sweet")
 let dog2 = Dog(name: "sweet")
 let bird = Bird(name: "sweet")
-
-
 let result = areEqual(first: dog, second: bird)
 print("dog areEqual bird:", result)
 print()
