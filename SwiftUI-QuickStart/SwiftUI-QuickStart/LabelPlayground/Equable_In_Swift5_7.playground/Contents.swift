@@ -4,13 +4,14 @@ import SwiftUI
 
 extension Equatable {
     func isEqual(_ other: any Equatable) -> Bool {
+        print("-------------")
+        print("join isEqual, the other:", other)
         guard let other = other as? Self else {
             print("as? faild, Want Type: \(Self.self), self: \(self)")
             return false
         }
-        
+        print("guard success, Want Type: \(Self.self), self: \(self)")
         let result = other == self
-        print("get result")
         return result
     }
 }
@@ -44,12 +45,17 @@ class Bird: BaseAnimal {
 }
 
 let dog = Dog(name: "sweet")
+let dog2 = Dog(name: "sweet")
 let bird = Bird(name: "sweet")
 
 
 let result = areEqual(first: dog, second: bird)
-print(result)
+print("dog areEqual bird:", result)
+print()
+let result2 = areEqual(first: dog, second: dog2)
+print("dog areEqual dog2:", result2)
+print()
 
-let result2 = areEqual(first: bird, second: dog)
-print(result2)
-print(dog == bird)
+print("dog == bird:", dog == bird)
+print()
+print("dog == dog2:", dog == dog2)
