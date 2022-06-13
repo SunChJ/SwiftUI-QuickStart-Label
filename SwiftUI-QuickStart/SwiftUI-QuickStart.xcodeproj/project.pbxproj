@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		964FE5562856D09F00159850 /* Form.swift in Sources */ = {isa = PBXBuildFile; fileRef = 964FE5552856D09F00159850 /* Form.swift */; };
+		964FE56828575D5600159850 /* GroupBox_TODO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 964FE56728575D5600159850 /* GroupBox_TODO.swift */; };
 		96930B0D2855A7FE004A2738 /* SwiftUI_QuickStartApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96930B0C2855A7FE004A2738 /* SwiftUI_QuickStartApp.swift */; };
 		96930B0F2855A7FE004A2738 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96930B0E2855A7FE004A2738 /* ContentView.swift */; };
 		96930B112855A800004A2738 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 96930B102855A800004A2738 /* Assets.xcassets */; };
@@ -34,6 +35,7 @@
 /* Begin PBXFileReference section */
 		964FE5552856D09F00159850 /* Form.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Form.swift; sourceTree = "<group>"; };
 		964FE56228573B2B00159850 /* FunnyEquable_In_Swift5_7.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = FunnyEquable_In_Swift5_7.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		964FE56728575D5600159850 /* GroupBox_TODO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupBox_TODO.swift; sourceTree = "<group>"; };
 		96930B092855A7FE004A2738 /* SwiftUI-QuickStart.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUI-QuickStart.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		96930B0C2855A7FE004A2738 /* SwiftUI_QuickStartApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_QuickStartApp.swift; sourceTree = "<group>"; };
 		96930B0E2855A7FE004A2738 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -117,6 +119,7 @@
 				96D98BD5285629E700892DC1 /* ColorPicker_TODO.swift */,
 				96D98BD728562A1300892DC1 /* DatePicker_iOS_14.swift */,
 				964FE5552856D09F00159850 /* Form.swift */,
+				964FE56728575D5600159850 /* GroupBox_TODO.swift */,
 				96930B102855A800004A2738 /* Assets.xcassets */,
 				96930B122855A800004A2738 /* Preview Content */,
 			);
@@ -215,6 +218,7 @@
 				96D98BCE28560CC300892DC1 /* LazyVGrid_TODO.swift in Sources */,
 				96D98BBC2855BE8B00892DC1 /* Layout_Behavior.swift in Sources */,
 				96D98BD228560D4100892DC1 /* ControlGroup_iOS_15.swift in Sources */,
+				964FE56828575D5600159850 /* GroupBox_TODO.swift in Sources */,
 				96930B0F2855A7FE004A2738 /* ContentView.swift in Sources */,
 				96D98BBA2855B12500892DC1 /* Swift_Basics.swift in Sources */,
 				96D98BD428560F9200892DC1 /* ControlViews_Button.swift in Sources */,
