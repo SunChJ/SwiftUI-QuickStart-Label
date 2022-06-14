@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		960C7B962858512A00250DBA /* Additional_List_Content_TODO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 960C7B952858512A00250DBA /* Additional_List_Content_TODO.swift */; };
+		960C7B982858514000250DBA /* Menu_TODO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 960C7B972858514000250DBA /* Menu_TODO.swift */; };
 		964FE5562856D09F00159850 /* Form.swift in Sources */ = {isa = PBXBuildFile; fileRef = 964FE5552856D09F00159850 /* Form.swift */; };
 		964FE56828575D5600159850 /* GroupBox_TODO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 964FE56728575D5600159850 /* GroupBox_TODO.swift */; };
 		964FE56A28575D9E00159850 /* Label_TODO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 964FE56928575D9E00159850 /* Label_TODO.swift */; };
@@ -36,6 +38,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		960C7B952858512A00250DBA /* Additional_List_Content_TODO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Additional_List_Content_TODO.swift; sourceTree = "<group>"; };
+		960C7B972858514000250DBA /* Menu_TODO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Menu_TODO.swift; sourceTree = "<group>"; };
 		964FE5552856D09F00159850 /* Form.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Form.swift; sourceTree = "<group>"; };
 		964FE56228573B2B00159850 /* FunnyEquable_In_Swift5_7.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = FunnyEquable_In_Swift5_7.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		964FE56728575D5600159850 /* GroupBox_TODO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupBox_TODO.swift; sourceTree = "<group>"; };
@@ -129,6 +133,8 @@
 				964FE56928575D9E00159850 /* Label_TODO.swift */,
 				964FE56B28575DD600159850 /* Link_TODO.swift */,
 				964FE56D28575E5300159850 /* List.swift */,
+				960C7B952858512A00250DBA /* Additional_List_Content_TODO.swift */,
+				960C7B972858514000250DBA /* Menu_TODO.swift */,
 				96930B102855A800004A2738 /* Assets.xcassets */,
 				96930B122855A800004A2738 /* Preview Content */,
 			);
@@ -228,6 +234,7 @@
 				96D98BCE28560CC300892DC1 /* LazyVGrid_TODO.swift in Sources */,
 				96D98BBC2855BE8B00892DC1 /* Layout_Behavior.swift in Sources */,
 				96D98BD228560D4100892DC1 /* ControlGroup_iOS_15.swift in Sources */,
+				960C7B962858512A00250DBA /* Additional_List_Content_TODO.swift in Sources */,
 				964FE56828575D5600159850 /* GroupBox_TODO.swift in Sources */,
 				96930B0F2855A7FE004A2738 /* ContentView.swift in Sources */,
 				964FE56E28575E5300159850 /* List.swift in Sources */,
@@ -236,6 +243,7 @@
 				964FE5562856D09F00159850 /* Form.swift in Sources */,
 				96930B0D2855A7FE004A2738 /* SwiftUI_QuickStartApp.swift in Sources */,
 				96D98BC22855E11500892DC1 /* LazyVStack_TODO.swift in Sources */,
+				960C7B982858514000250DBA /* Menu_TODO.swift in Sources */,
 				964FE56C28575DD600159850 /* Link_TODO.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
