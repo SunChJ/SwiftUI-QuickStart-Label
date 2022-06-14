@@ -257,6 +257,59 @@ struct List_Row_Inset: View {
     
 }
 
+struct List_With_Children: View {
+    var parents = [Parent(name: "Mark", children: [Parent(name: "Paola")]),
+                   Parent(name: "Rodrigo", children: [Parent(name: "Kai"), Parent(name: "Brenan"), Parent(name: "Easton")]),
+                   Parent(name: "Marcella", children: [Parent(name: "Sam"), Parent(name: "Melissa"), Parent(name: "Melanie")])]
+    
+    var body: some View {
+        VStack(spacing: 20) {
+            HeaderView("List",
+                       subtitle: "Children", desc: "You can arrange your data to allow outline style.", back: .green, textColor: .white)
+            
+            List(parents, children: \.children) { parent in
+                Text(parent.name)
+            }
+        }
+        .font(.title)
+    }
+    
+}
+
+struct List_ListStyle_Automatic: View {
+    var body: some View {
+        VStack(spacing: 20) {
+            HeaderView("List", subtitle: "List Style: Automatic", desc: "You can apply different styles to lists, Here is what a list looks like using the default style 'automatic'.", back: .green)
+            
+            List {
+                Text("What would you like to learn?")
+                    .font(.title)
+                    .fontWeight(.bold)
+                Label("Learn Geography", systemImage: "signpost.right.fill")
+                Label("Learn Music", systemImage: "doc.richtext")
+                Label("Learn Photography", systemImage: "camera.aperture")
+                Label("Learn Art", systemImage: "paintpalette.fill")
+                    .font(
+                        .system( .title3).weight(.bold)
+                    )
+                Label("Learn Physics", systemImage: "atom")
+                Label("Learn 3D", systemImage: "cube.transparent")
+                Label("Learn Hair Styling", systemImage: "comb.fill")
+                
+            }
+            .accentColor(.green)
+            .listStyle(.automatic)
+        }
+        .font(.title)
+    }
+}
+
+struct Parent: Identifiable {
+    var id = UUID()
+    var name = ""
+    var children: [Parent]? // Had to make this optional
+}
+
 struct CustomRow: View {
     var content: String
     var body: some View {
@@ -283,6 +336,9 @@ struct List_Previews: PreviewProvider {
 //        List_Selection_Single().preferredColorScheme(.dark)
 //        List_Selection_Multiple().preferredColorScheme(.dark)
 //        List_Row_Background().preferredColorScheme(.dark)
-        List_Row_Inset().preferredColorScheme(.dark)
+//        List_Row_Inset().preferredColorScheme(.dark)
+//        List_With_Children().preferredColorScheme(.dark)
+        
+        List_ListStyle_Automatic().preferredColorScheme(.dark)
     }
 }
