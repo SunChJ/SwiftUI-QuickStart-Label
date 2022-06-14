@@ -154,6 +154,109 @@ struct List_Selection_Multiple: View {
     }
 }
 
+struct Todo: Identifiable {
+    let id = UUID()
+    var action = ""
+    var due = ""
+    var isIndented = false
+}
+
+struct List_Row_Background: View {
+    @State private var newTodo = ""
+    
+    @State var data = [
+        Todo(action: "Practice Coding", due: "Today"),
+        Todo(action: "Grocery shopping", due: "Today"),
+        Todo(action: "Get tickets", due: "Tomorrow"),
+        Todo(action: "Clean house", due: "Next Week"),
+        Todo(action: "Do laundry", due: "Next Week"),
+        Todo(action: "Cook dinner", due: "Next Week"),
+        Todo(action: "Paint room", due: "Next Week")
+    ]
+    
+    var body: some View {
+        List {
+            Section {
+                ForEach(data) { datum in
+                    Text(datum.action)
+                        .font(.system(size: 24))
+                        .foregroundColor(self.getTextColor(due: datum.due))
+                        .listRowBackground(datum.due == "Today" ? Color.green : Color.clear)
+                        .padding()
+                }
+            } header: {
+                VStack {
+                    Text("To Do").font(.title)
+                    HStack {
+                        TextField("new todo", text: $newTodo)
+                            .textFieldStyle(.roundedBorder)
+                        Button(action: {
+                            data.append(Todo(action: newTodo))
+                            newTodo = ""
+                        }) {
+                            Image(systemName: "plus.circle.fill").font(.title)
+                        }
+                    }
+                }
+                .padding(.bottom)
+            }
+        }
+        .listStyle(.plain)
+    }
+    
+    private func getTextColor(due: String) -> Color {
+        due == "Today" ? Color.black : Color.primary
+    }
+}
+
+struct List_Row_Inset: View {
+    @State private var newTodo = ""
+    
+    @State var data = [
+        Todo(action: "Practice Coding", due: "Today"),
+        Todo(action: "Grocery shopping", due: "Today"),
+        Todo(action: "Get tickets", due: "Tomorrow"),
+        Todo(action: "Clean house", due: "Next Week"),
+        Todo(action: "Do laundry", due: "Next Week"),
+        Todo(action: "Cook dinner", due: "Next Week"),
+        Todo(action: "Paint room", due: "Next Week")
+    ]
+    
+    var body: some View {
+        VStack {
+            VStack {
+                Text("To Do").font(.title).foregroundColor(.black)
+                HStack {
+                    TextField("new todo", text: $newTodo)
+                        .textFieldStyle(.roundedBorder)
+                    Button(action: {
+                        data.append(Todo(action: newTodo))
+                        newTodo = ""
+                    }) {
+                        Image(systemName: "plus.circle.fill").font(.title)
+                            .foregroundColor(.white)
+                    }
+                }
+            }
+            .padding()
+            .background(Color.green)
+            
+            List {
+                ForEach(data) { datum in
+                    Text(datum.action)
+                        .font(.title)
+                        .padding()
+                        .listRowInsets(EdgeInsets(top: 0, leading: datum.isIndented ? 60 : 20, bottom: 0, trailing: 0))
+                }
+            }
+            .listStyle(.plain)
+
+        }
+        .listStyle(.plain)
+    }
+    
+}
+
 struct CustomRow: View {
     var content: String
     var body: some View {
@@ -177,7 +280,9 @@ struct List_Previews: PreviewProvider {
 //        List_Custom_Rows().preferredColorScheme(.dark)
 //        List_Move_Row().preferredColorScheme(.dark)
 //        List_Delete_Row().preferredColorScheme(.dark)
-        List_Selection_Single().preferredColorScheme(.dark)
-        List_Selection_Multiple().preferredColorScheme(.dark)
+//        List_Selection_Single().preferredColorScheme(.dark)
+//        List_Selection_Multiple().preferredColorScheme(.dark)
+//        List_Row_Background().preferredColorScheme(.dark)
+        List_Row_Inset().preferredColorScheme(.dark)
     }
 }
