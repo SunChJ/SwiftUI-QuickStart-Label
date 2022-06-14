@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		960C7B962858512A00250DBA /* Additional_List_Content_TODO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 960C7B952858512A00250DBA /* Additional_List_Content_TODO.swift */; };
 		960C7B982858514000250DBA /* Menu_TODO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 960C7B972858514000250DBA /* Menu_TODO.swift */; };
+		960C7BAB2858B65300250DBA /* NavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 960C7BAA2858B65300250DBA /* NavigationView.swift */; };
 		964FE5562856D09F00159850 /* Form.swift in Sources */ = {isa = PBXBuildFile; fileRef = 964FE5552856D09F00159850 /* Form.swift */; };
 		964FE56828575D5600159850 /* GroupBox_TODO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 964FE56728575D5600159850 /* GroupBox_TODO.swift */; };
 		964FE56A28575D9E00159850 /* Label_TODO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 964FE56928575D9E00159850 /* Label_TODO.swift */; };
@@ -40,6 +41,7 @@
 /* Begin PBXFileReference section */
 		960C7B952858512A00250DBA /* Additional_List_Content_TODO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Additional_List_Content_TODO.swift; sourceTree = "<group>"; };
 		960C7B972858514000250DBA /* Menu_TODO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Menu_TODO.swift; sourceTree = "<group>"; };
+		960C7BAA2858B65300250DBA /* NavigationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationView.swift; sourceTree = "<group>"; };
 		964FE5552856D09F00159850 /* Form.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Form.swift; sourceTree = "<group>"; };
 		964FE56228573B2B00159850 /* FunnyEquable_In_Swift5_7.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = FunnyEquable_In_Swift5_7.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		964FE56728575D5600159850 /* GroupBox_TODO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupBox_TODO.swift; sourceTree = "<group>"; };
@@ -135,6 +137,7 @@
 				964FE56D28575E5300159850 /* List.swift */,
 				960C7B952858512A00250DBA /* Additional_List_Content_TODO.swift */,
 				960C7B972858514000250DBA /* Menu_TODO.swift */,
+				960C7BAA2858B65300250DBA /* NavigationView.swift */,
 				96930B102855A800004A2738 /* Assets.xcassets */,
 				96930B122855A800004A2738 /* Preview Content */,
 			);
@@ -238,6 +241,7 @@
 				964FE56828575D5600159850 /* GroupBox_TODO.swift in Sources */,
 				96930B0F2855A7FE004A2738 /* ContentView.swift in Sources */,
 				964FE56E28575E5300159850 /* List.swift in Sources */,
+				960C7BAB2858B65300250DBA /* NavigationView.swift in Sources */,
 				96D98BBA2855B12500892DC1 /* Swift_Basics.swift in Sources */,
 				96D98BD428560F9200892DC1 /* ControlViews_Button.swift in Sources */,
 				964FE5562856D09F00159850 /* Form.swift in Sources */,
